@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "jest": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose test/*"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rchan321/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/rchan321/jest-another-RPG#readme"
+  "homepage": "https://github.com/rchan321/jest-another-RPG#readme",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
 }
