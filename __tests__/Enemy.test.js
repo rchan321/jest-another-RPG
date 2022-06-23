@@ -57,3 +57,4 @@ test("subtracts from enemy's health", () => {
 
   expect(enemy.health).toBe(0);
 });
+ 
